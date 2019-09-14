@@ -3,6 +3,7 @@ import { Component, ReactNode } from "react";
 interface ToastComponentProps {
   position?: "bottom" | "center" | "top";
   textStyle?: {};
+  style?: {};
   positionValue?: number;
   fadeInDuration?: number;
   fadeOutDuration?: number;
